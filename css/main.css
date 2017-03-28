@@ -1,0 +1,212 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/*header头部的各元素的对齐方式*/
+header {
+  width: 10rem;
+  margin: 0 auto;
+
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+  background-color: rgb(44,57,65);
+  
+  border-bottom:solid 2px #fff;
+}
+
+header > .title{
+  width: 9rem;
+  margin: 0.375rem auto 0.1rem auto;
+}
+
+header span{
+	color: white;
+	margin-left:1.2rem;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+}
+.title img:first-child{
+  float:left;
+}
+.title img{
+  width: 0.8rem;	
+	display: inline;        
+}
+
+.title > #bell, #phon_log{
+	float:right;
+  padding-left: 0.3rem;
+}
+/*end*/
+.manner{
+	width:10rem;
+	height:10rem;
+	margin:0 auto;
+	
+	background-image: url(../img/m_back.png);
+	background-size: 10rem 10rem;
+	}
+.manner .top{
+	width: 10rem;
+	height: 6.6rem;
+}
+.manner .top .left{
+	width:6.6rem;
+	height:6.6rem;
+	text-align: left;
+	padding-left:0.4rem;
+	
+}
+
+.left > img:first-child{
+	width: 1rem;
+	position: relative;
+	display: inline;
+}
+.left > #time{
+	color: #fff;
+}
+
+.manner .top div{
+	width:3.4rem;
+	height:3.3rem;
+	text-align: center;
+	float: left;
+	
+	-webkit-transition-duration: 0.4s;           /* 动画的过渡效果的速度设置，兼容Safari */
+  transition-duration: 0.4s;
+}
+
+.manner .top >#ll:hover,
+.manner .top >#ts:hover,
+.manner .bottom >#gg:hover,
+.manner .bottom >#bx:hover,
+.manner .bottom >#jf:hover
+{
+	  cursor: pointer;
+    background-color:rgba(44,57,65,0.6);         /* 过渡效果的背景颜色 设置*/
+    color: white;
+}
+
+
+.manner .top div >img{
+	margin: 0.3rem auto 0 auto;
+}
+
+.manner .top > div >span{
+	font-size:0.4rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: rgb(58,42,33);
+}
+.manner .top > div >p{
+	font-size:0.3rem;
+	font-family: "微软雅黑";
+	color: rgb(58,42,33);
+}
+
+.left > #time, #name{
+	font-size:0.5rem;
+	font-family: "微软雅黑";
+	font-weight:initial;
+	color: white;
+}
+
+.left >div> #tem{
+	font-size:3rem;
+	font-family:arial;
+	font-weight:2;
+	margin:0.3rem 0 0 0;
+	float:left;
+	color: white;
+}
+
+.left >div> #wea_icon{
+	width: 1.3rem;
+	display: inline;
+	float:left;
+}
+  
+.manner .bottom >div{
+	width:3.3rem;
+	height:3.4rem;
+	text-align: center;
+  float:right;	
+  
+  cursor: pointer;
+
+}
+.manner .bottom > div >span{
+	font-size:0.4rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: rgb(58,42,33);
+}
+.manner .bottom > div >p{
+	font-size:0.3rem;
+	font-family: "微软雅黑";
+	color: rgb(58,42,33);
+}
+.manner .bottom div >img{
+	margin: 0.6rem auto 0 auto;
+	height:1.4rem;
+}
+
+.top #ll{
+  background-color: rgba(255,255,255,0.5);
+}
+.top #ts{
+  background-color: rgba(255,255,255,0.8);
+}
+.bottom #jf{
+  width: 3.4rem;
+  background-color: rgba(255,255,255,1);
+}
+.bottom #bx{
+  background-color: rgba(255,255,255,0.8);
+}
+.bottom #gg{
+  background-color: rgba(255,255,255,0.5);
+}
+
+.info{
+	width:10rem;
+	margin:0 auto;
+}
+
+.info li{
+	width: 10rem;
+	height: 3.3rem;
+	border-bottom: solid 1px rgb(205,205,205);
+}
+
+.info .item{
+	width:9rem;
+	margin: 0.8rem auto 0.8rem auto;
+}
+
+.item > img{
+	display:inline;
+	float:left;
+	width: 2.4rem;
+}
+
+.info_r >*{
+	margin-bottom: 0.2rem;
+}
+.info_r > h3{
+	color:rgb(149,149,149);
+}
+.info_r > p{
+	font:0.5rem "微软雅黑";
+	font-weight: bold;
+	color:black;
+}
+
+.detail{
+	font-size: 0.3rem;
+}

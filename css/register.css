@@ -1,0 +1,93 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #e9f2f7;
+  position: relative;
+}
+header {
+  width: 10rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+header img {
+  margin: 0 auto;
+}
+.info {
+  width: 7.359375rem;
+  margin: 0.375rem auto 1.234375rem auto;
+}
+.info input,
+.info select {
+  width: 7.359375rem;
+  height: 1.21875rem;
+  display: block;
+  box-shadow: inset 2px 2px 8px #ccc;
+  font-size: 0.375rem;
+  padding-left: 0.46875rem;
+  margin-bottom: 0.671875rem;
+  border: 2px solid #c1c1c1;
+  background: #fff;
+}
+.info input[name="register"] {
+  width: 3.671875rem;
+  height: 0.828125rem;
+  border-radius: 20px;
+  padding-left: 0;
+  background: -webkit-linear-gradient(left, #e1bc86, #eac58c, #cca167);
+  /* Safari 5.1 - 6.0 */
+  font-size: 0.46875rem;
+  font-weight: 700;
+  color: #81511c;
+  margin: 0 auto;
+}
+.tool {
+  width: 10rem;
+  margin: 0 auto;
+}
+.tool h2 {
+  color: #898989;
+  font-size: 0.375rem;
+  text-align: center;
+  position: relative;
+}
+.tool h2:before {
+  content: "";
+  border: 1px solid #000000;
+  width: 1.5rem;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0.515625rem;
+}
+.tool h2:after {
+  content: "";
+  border: 1px solid #000000;
+  width: 1.5rem;
+  position: absolute;
+  top: 0.3125rem;
+  right: 0.515625rem;
+}
+.tool ul {
+  margin: 0.671875rem 0.71875rem 1.25rem 0.71875rem;
+}
+.tool li {
+  float: left;
+  width: 1.9375rem;
+  height: 1.90625rem;
+  margin-left: 0.71875rem;
+}
+.tool li img {
+  width: 100%;
+}
+footer {
+  width: 10rem;
+  margin: 0 auto;
+  padding: 0.3125rem 1.09375rem;
+  background: #b0bdcf;
+  text-align: right;
+  font-size: 0.25rem;
+}
+footer p:nth-child(2) {
+  font-size: 0.28125rem;
+}

@@ -1,0 +1,108 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/*header头部的各元素的对齐方式*/
+header {
+  width: 10rem;
+  margin: 0 auto;
+
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+  background-color: rgb(44,57,65);
+  
+  border-bottom:solid 2px #fff;
+}
+
+header > .title{
+  width: 9rem;
+  margin: 0.375rem auto 0.1rem auto;
+}
+
+header span{
+	color: white;
+	margin-left:0.05rem;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+}
+
+.title img{
+  width: 0.8rem;	
+	display: inline;        
+}
+
+.title > #bell, #phon_log{
+	float:right;
+  padding-left: 0.3rem;
+}
+/*end*/
+.main{
+	width:10rem;
+	height:10rem;
+	margin:0 auto;
+	}
+
+.left{
+	width:3rem;
+	height:15rem;
+  display: inline-block;
+  	
+	background-color: rgb(44,57,65);
+}
+
+.left > ul{
+		margin:0 0 0 0;
+
+}
+.left li >div{
+	height:2.5rem;
+  border-bottom: solid 1px rgb(80,90,97);
+	text-align: center;
+	margin:0 0 0 0;
+  }
+
+
+.left li > div >img{
+	width: 1.3rem;
+	margin: 0 auto 0.3rem auto;
+	position:relative;
+	top:0.2rem;
+	
+}
+
+.left li > div > span{
+	margin: 0 auto;
+	font-size: 0.35rem;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+/*右边的信息样式
+*/
+.right{
+	width:7rem;
+	height:15rem;
+	position: absolute;
+	z-index: 0;
+	float: right;
+	display: inline;
+  
+  border: 0;
+  background-color: rgb(238,238,238);
+  box-shadow: -3px 0px 8px #000;
+
+}
+
+
+/*
+按钮的按下的样式
+*/
+.button{
+	background-color: rgb(143,130,188);
+}
+
+.saturate {-webkit-filter: saturate(7); filter: saturate(7);}
+
